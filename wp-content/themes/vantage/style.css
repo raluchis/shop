@@ -3101,3 +3101,27 @@ body.layout-full {
     font-family: "Times New Roman", Georgia, Serif;
     font-size: 20px;
 }
+
+
+/* contact text style*/
+.circle-icon-box.circle-icon-position-left.circle-icon-hide-box.circle-icon-size-small .text
+{
+  line-height: 140%;
+  font-size: 0.9em;
+}
+
+.circle-icon-box.circle-icon-position-left.circle-icon-hide-box.circle-icon-size-small h4
+{
+   font-size: 1.4em;
+    /* Add offside font */
+  font-family: 'Offside', cursive;
+  font-weight: lighter;
+}
+
+/* Add offside font to the widget titles */
+.widget-title
+{
+  /* Add offside font */
+  font-family: 'Offside', cursive;
+  font-weight: lighter;
+}
