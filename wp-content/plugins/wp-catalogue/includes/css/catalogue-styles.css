@@ -77,6 +77,8 @@
 }
 .wpc-title a {
 	font-size: 14px;
+	font-family: 'Offside', cursive;
+    font-weight: lighter;
 	color: #11A04E ;
 	text-decoration:none;
 	display:block;
@@ -184,3 +186,9 @@ div#wpc-col-2 h4
 	border: #11A04E 5px solid;
 }
 
+.wpc-category a
+{
+	/* Add offside font */
+  font-family: 'Offside', cursive;
+  font-weight: lighter;
+}
