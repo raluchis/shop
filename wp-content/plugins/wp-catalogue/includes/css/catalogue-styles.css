@@ -1,4 +1,5 @@
 #wpc-catalogue-wrapper {
+	min-height: 400px;
 }
 #wpc-catalogue-wrapper h4 {
 	font-size:20px;
