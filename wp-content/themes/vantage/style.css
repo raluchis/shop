@@ -1730,7 +1730,7 @@ article.page.post-with-thumbnail-icon .entry-main {
 #colophon {
   margin-bottom: 20px;
   background: #2f3033;
-  padding: 30px;
+  /*padding: 30px;*/
 }
 #colophon #theme-attribution,
 #colophon #site-info {
@@ -1752,8 +1752,8 @@ body.layout-full {
 .layout-full #colophon {
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /*padding-top: 30px;
+  padding-bottom: 30px;*/
 }
 #scroll-to-top {
   position: fixed;
@@ -3124,4 +3124,34 @@ body.layout-full {
   /* Add offside font */
   font-family: 'Offside', cursive;
   font-weight: lighter;
+}
+
+/* Hide the default text from the footer */
+#colophon #theme-attribution
+{
+  display: none;
+}
+
+/* Make the footer smaller */ 
+#colophon
+{
+  padding-top: 20px;
+  padding-bottom: 7px;
+}
+
+/* Align the copyright vertically centered */
+#footer-widgets .textwidget
+{
+  margin-top: 25px;
+}
+
+/* Make the search result and not found pages bigger */
+#search-results
+{
+  min-height: 350px;
+}
+
+#page-not-found
+{
+  min-height: 370px;
 }

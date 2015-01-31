@@ -12,18 +12,24 @@
 
 <article id="post-0" class="post no-results not-found">
 	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'vantage' ); ?></h1>
+		<h1 class="entry-title"><?php _e( 'Niciun rezultat', 'vantage' ); ?></h1>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div id="search-results" class="entry-content" >
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
 			<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'vantage' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'vantage' ); ?></p>
+			<p><?php _e( 'Ne pare rau, dar cautarea dumneavoastra nu a gasit niciun rezultat.', 'vantage' ); ?></p>
 			<?php get_search_form(); ?>
+
+			<p>
+				Poate 
+				<a title="Produse" href="http://localhost/shop/produse-bune-la-cele-mai-mici-preturi/" target="_blank">catalogul nostru de produse</a>
+				va poate ajuta in aceasta situatie.
+			</p>
 
 		<?php else : ?>
 
