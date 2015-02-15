@@ -158,7 +158,8 @@ function catalogue() {
 
                     $return_string .= '<!--wpc product-->';
                     $return_string .= '<div class="wpc-product">';
-                    $return_string .= '<div class="wpc-img" style="width:' . $twidth . 'px; height:' . $theight . 'px; overflow:hidden"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt="" height="' . $theight . '" ';
+                    //$return_string .= '<div class="wpc-img" style="width:' . $twidth . 'px; height:' . $theight . 'px; overflow:hidden"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt="" width="' . $theight . '" ';
+                    $return_string .= '<div class="wpc-img" style="width: 151px; height: 151px; overflow:hidden; padding-bottom: 5px;"><a href="'. $permalink .'" class="wpc-product-link"><img src="'. $img .'" alt="" width="' . $theight . '" ';
 
                         if(!get_option('tcroping')){
                             $return_string .=  '" width="' .$img_width. '"'; }

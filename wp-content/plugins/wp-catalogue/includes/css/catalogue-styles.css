@@ -54,7 +54,7 @@
 .wpc-img {
 	border: 5px solid #dcdbdb;
 	margin-bottom: 10px;
-	background: #dcdbdb;
+	background: #ffffff;
 	font-size: 0;
 }
 .wpc-next-prev {
@@ -114,6 +114,10 @@
 .wpc-paginations a:hover, .wpc-paginations .active-wpc-page {
 	background-position:bottom;
 	color:#FFF;
+}
+.pagination-number:hover, .pagination-number.active-wpc-page:hover
+{
+	color: #ffffff !important;
 }
 .product-img-view {
 	float:left;
